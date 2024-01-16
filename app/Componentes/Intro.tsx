@@ -6,10 +6,17 @@ import { motion } from 'framer-motion'
 import { HiDownload } from 'react-icons/hi'
 import { BsGithub, BsLinkedin } from 'react-icons/bs'
 import { SiCodechef, SiLeetcode } from 'react-icons/si'
+import { useSectionInView } from '@/lib/hooks'
 
 function Intro() {
+  const { ref } = useSectionInView('Home')
+
   return (
-    <section className='mb-28 max-w-[50rem] text-center sm:mb-4'>
+    <section
+      ref={ref}
+      id='home'
+      className='mb-28 max-w-[50rem] text-center sm:mb-4 scroll-mt-36'
+    >
       <div className='flex items-center justify-center'>
         <motion.div
           initial={{ opacity: 0, scale: 0 }}
