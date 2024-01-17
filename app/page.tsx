@@ -1,7 +1,9 @@
 import About from './Componentes/About'
+import Experience from './Componentes/Experience'
 import Intro from './Componentes/Intro'
 import Projects from './Componentes/Projects'
 import Sectiondevider from './Componentes/Section-devider'
+import Skills from './Componentes/Skills'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       <Sectiondevider />
       <About />
       <Projects />
+      <Skills />
+      <Experience />
     </main>
   )
 }
