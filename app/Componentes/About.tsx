@@ -45,9 +45,9 @@ function About() {
 
       <p>
         <span className=' font-bold'>
-          When I'm not in front of a computer screen,
+          When I am not in front of a computer screen,
         </span>{' '}
-        I'm probably reading books, travelling or playing video games.
+        I am probably reading books, travelling or playing video games.
       </p>
     </motion.section>
   )
