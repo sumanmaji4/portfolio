@@ -53,16 +53,32 @@ function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:bg-white/10 dark:text-white/60'>
+        <a
+          className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:bg-white/10 dark:text-white/60'
+          target='_blank'
+          href='https://www.linkedin.com/in/suman-maji-9b73b81a3/'
+        >
           <BsLinkedin />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
+        <a
+          className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'
+          target='_blank'
+          href='https://github.com/sumanmaji4'
+        >
           <BsGithub />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
+        <a
+          className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'
+          target='_blank'
+          href='https://www.codechef.com/users/suman_maji'
+        >
           <SiCodechef />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
+        <a
+          className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'
+          target='_blank'
+          href='https://leetcode.com/sumanmaji/'
+        >
           <SiLeetcode />
         </a>
         <a

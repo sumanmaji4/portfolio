@@ -8,7 +8,14 @@ import { FaCode } from 'react-icons/fa'
 
 type ProjectProps = (typeof projectsData)[number]
 
-function Project({ title, description, tags, imageUrl }: ProjectProps) {
+function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+  code,
+  live,
+}: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -41,10 +48,16 @@ function Project({ title, description, tags, imageUrl }: ProjectProps) {
           </ul>
           <ul className='w-full flex gap-2 justify-center '>
             <li className=' bg-black/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
-              Code <FaCode />
+              <a href={code} target='_blank'>
+                Code
+              </a>
+              <FaCode />
             </li>
             <li className=' bg-black/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
-              Live <LuExternalLink />
+              <a href={live} target='_blank'>
+                Live
+              </a>{' '}
+              <LuExternalLink />
             </li>
           </ul>
         </div>

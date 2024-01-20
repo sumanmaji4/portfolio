@@ -3,7 +3,7 @@ import { CgWorkAlt } from 'react-icons/cg'
 import { LuGraduationCap } from 'react-icons/lu'
 import todoappImg from '@/public/todoapp.png'
 import oldgoodsImg from '@/public/oldgoods.png'
-import nodeMessage from '@/public/NodeMessage.png'
+import nodeMessage from '@/public/nodeMessage.png'
 import { SiFreelancer } from 'react-icons/si'
 
 export const links = [
@@ -68,6 +68,8 @@ export const projectsData = [
       'An web-app, using React that allows users to add, edit, and delete tasks they want to work on, and also mark the tasks as complete without deleting them. It has a priority sorting feature.',
     tags: ['React', 'Tailwind CSS', 'React Context'],
     imageUrl: todoappImg,
+    code: 'https://github.com/sumanmaji4/AulaCubeAssignment',
+    live: 'https://aula-cube-assignment-chi.vercel.app/',
   },
   {
     title: 'Node Message',
@@ -75,6 +77,8 @@ export const projectsData = [
       'It is a web platform where anyone with an account can post, and everyone having account can see those post. It comes with login system, post editing and deleting features.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'CSS', 'Express'],
     imageUrl: nodeMessage,
+    code: 'https://github.com/sumanmaji4/NodeMessageBackEnd',
+    live: 'https://node-message-front-end.vercel.app/',
   },
   {
     title: 'Old Goods',
@@ -82,6 +86,8 @@ export const projectsData = [
       'It is a web platform for students of our hostels, where we can buy and sell our old items like books, cycles, Lab equipment, etc. The application comes with login system, user dashboard, and Admin dashboard.',
     tags: ['React.js', 'Node.js', 'MongoDB', 'CSS', 'Express'],
     imageUrl: oldgoodsImg,
+    code: 'https://github.com/sumanmaji4/production-oldGoods',
+    live: 'https://oldgoods-beta.onrender.com/',
   },
 ] as const
 
