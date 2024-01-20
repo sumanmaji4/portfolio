@@ -42,10 +42,9 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hello, I'm Suman.</span> I'm a front-end
-        developer, experienced in{' '}
-        <span className='font-bold'>Web Development.</span> I enjoy solving
-        problems. My focus is React.JS and Next.JS
+        <span className='font-bold'>Hello, I'm Suman.</span> A passionate
+        <span className='font-bold'> Front-End Web Developer,</span> based in
+        West Bengal, India.
       </motion.h1>
 
       <motion.div
@@ -54,20 +53,20 @@ function Intro() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl border border-black/20 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'>
+        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:bg-white/10 dark:text-white/60'>
           <BsLinkedin />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl border border-black/20 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'>
+        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
           <BsGithub />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl border border-black/20 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'>
+        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
           <SiCodechef />
         </a>
-        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl border border-black/20 cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition'>
+        <a className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition  dark:bg-white/10 dark:text-white/60'>
           <SiLeetcode />
         </a>
         <a
-          className='bg-white px-7 py-3 flex items-center gap-2 rounded-full text-2xl border border-black/20 cursor-pointer focus:scale-110 hover:scale-105 active:scale-105 transition'
+          className='bg-white px-7 py-3 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-110 hover:scale-105 active:scale-105 transition dark:bg-white/10'
           href="/Suman's Resume.pdf"
           download={true}
         >

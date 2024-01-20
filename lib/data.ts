@@ -1,10 +1,10 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
-import { FaReact } from 'react-icons/fa'
 import { LuGraduationCap } from 'react-icons/lu'
-import calculatorImg from '@/public/calculator.png'
 import todoappImg from '@/public/todoapp.png'
 import oldgoodsImg from '@/public/oldgoods.png'
+import nodeMessage from '@/public/NodeMessage.png'
+import { SiFreelancer } from 'react-icons/si'
 
 export const links = [
   {
@@ -35,51 +35,52 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title:
+      'Graduated from Jalpaiguri Government Engineering College Jalpaiguri',
+    location: 'CGPA: 8.2',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'I complete my bachelor of technology in electronics and communication engineering',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: 'July 2019 - June 2023',
   },
   {
-    title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    title: 'Geeksforgeeks',
+    location: 'Problem Setter Intern',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
+      'Created problems based on data structures and algorithms. Tested problems created by other problem setters. Managed content for Geeksforgeeks Practice Portal.',
     icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
+    date: 'July 2022 - March 2023',
   },
   {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
+    title: 'Cheeg.com',
+    location: 'Subject Matter Expert in Computer Science',
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: '2021 - present',
+      'Worked as a freelance independent contractor for Chegg India Private Limited. Solved students doubts related to Computer Science.',
+    icon: React.createElement(SiFreelancer),
+    date: 'October 2021 - July 2022',
   },
 ] as const
 
 export const projectsData = [
   {
-    title: 'Calculator',
-    description:
-      'I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.',
-    tags: ['React', 'Next.js', 'MongoDB', 'Tailwind', 'Prisma'],
-    imageUrl: calculatorImg,
-  },
-  {
     title: 'Todo App',
     description:
-      'Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.',
-    tags: ['React', 'TypeScript', 'Next.js', 'Tailwind', 'Redux'],
+      'An web-app, using React that allows users to add, edit, and delete tasks they want to work on, and also mark the tasks as complete without deleting them. It has a priority sorting feature.',
+    tags: ['React', 'Tailwind CSS', 'React Context'],
     imageUrl: todoappImg,
+  },
+  {
+    title: 'Node Message',
+    description:
+      'It is a web platform where anyone with an account can post, and everyone having account can see those post. It comes with login system, post editing and deleting features.',
+    tags: ['React.js', 'Node.js', 'MongoDB', 'CSS', 'Express'],
+    imageUrl: nodeMessage,
   },
   {
     title: 'Old Goods',
     description:
-      'A public web app for quick analytics on text. It shows word count, character count and social media post limits.',
-    tags: ['React', 'Next.js', 'SQL', 'Tailwind', 'Framer'],
+      'It is a web platform for students of our hostels, where we can buy and sell our old items like books, cycles, Lab equipment, etc. The application comes with login system, user dashboard, and Admin dashboard.',
+    tags: ['React.js', 'Node.js', 'MongoDB', 'CSS', 'Express'],
     imageUrl: oldgoodsImg,
   },
 ] as const
