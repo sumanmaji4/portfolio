@@ -42,7 +42,7 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold'>Hello, I&#39;m Suman.</span> A passionate
+        <span className='font-bold'>Hello, I&#39;m Suman,</span> a passionate
         <span className='font-bold'> Front-End Web Developer,</span> based in
         West Bengal, India.
       </motion.h1>
