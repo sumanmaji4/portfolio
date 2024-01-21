@@ -83,7 +83,7 @@ function Intro() {
         </a>
         <a
           className='bg-white px-7 py-3 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-110 hover:scale-105 active:scale-105 transition dark:bg-white/10'
-          href="/Suman's Resume.pdf"
+          href='/Resume_Suman_Maji.pdf'
           download={true}
         >
           Download CV <HiDownload />
