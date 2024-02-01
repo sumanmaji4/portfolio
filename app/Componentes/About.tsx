@@ -17,7 +17,7 @@ function About() {
       transition={{ delay: 0.175 }}
     >
       <SectionHeading>About Me</SectionHeading>
-      <p className='mb-4'>
+      <p className='mb-4 text-justify'>
         I recently graduated from{' '}
         <span className=' font-bold'>
           Japlaiguri Government Engineering College
@@ -25,7 +25,7 @@ function About() {
         after completing Bachelor of Technology in Electronics and Communication
         Engineering.
       </p>
-      <p className='mb-4'>
+      <p className='mb-4 text-justify'>
         After graduating, I decided to pursue my passion for programming. My
         favorite part of programming is the{' '}
         <span className=' font-semibold'>problem-solving aspect.</span> I love
@@ -43,7 +43,7 @@ function About() {
         software developer.
       </p>
 
-      <p>
+      <p className='text-justify'>
         <span className=' font-bold'>
           When I am not in front of a computer screen,
         </span>{' '}
