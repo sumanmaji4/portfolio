@@ -1,9 +1,9 @@
 import React from 'react'
 import { CgWorkAlt } from 'react-icons/cg'
 import { LuGraduationCap } from 'react-icons/lu'
-import todoappImg from '@/public/todoapp.png'
+import mypen from '@/public/MyPen.png'
 import oldgoodsImg from '@/public/oldgoods.png'
-import nodeMessage from '@/public/nodeMessage.png'
+import nimbuschat from '@/public/NimbusChat.png'
 import { SiFreelancer } from 'react-icons/si'
 
 export const links = [
@@ -63,22 +63,22 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Todo App',
+    title: 'My Pen',
     description:
-      'An web-app, using React that allows users to add, edit, and delete tasks they want to work on, and also mark the tasks as complete without deleting them. It has a priority sorting feature.',
-    tags: ['React', 'Tailwind CSS', 'React Context'],
-    imageUrl: todoappImg,
-    code: 'https://github.com/sumanmaji4/AulaCubeAssignment',
-    live: 'https://aula-cube-assignment-chi.vercel.app/',
+      'A web application that allows users to write, compile, and preview HTML, CSS, and JavaScript code in real-time. Has features for saving and sharing code snippets, enabling users to store their work securely and collaborate by sharing unique URLs with others.',
+    tags: ['React.js', 'Tailwind CSS', 'Node.js', 'MongoDB', 'Typescript'],
+    imageUrl: mypen,
+    code: 'https://github.com/sumanmaji4/MyPenClient',
+    live: 'https://my-pen-client.vercel.app/',
   },
   {
-    title: 'Node Message',
+    title: 'Nimbus Chat',
     description:
-      'It is a web platform where anyone with an account can post, and everyone having account can see those post. It comes with login system, post editing and deleting features.',
-    tags: ['React.js', 'Node.js', 'MongoDB', 'CSS', 'Express'],
-    imageUrl: nodeMessage,
-    code: 'https://github.com/sumanmaji4/NodeMessageBackEnd',
-    live: 'https://node-message-front-end.vercel.app/',
+      'A real-time text chatting website using Next.js and Pusher WebSocket for seamless communication,vproviding users with an efficient and interactive messaging experience. Integrated Google authentication using NextAuth to offer secure and streamlined user login and registration processes, enhancing the overall user experience and safety.',
+    tags: ['Next.js', 'NextAuth', 'Tailwind CSS', 'Redis', 'WebSockets'],
+    imageUrl: nimbuschat,
+    code: 'https://github.com/sumanmaji4/nimbus-chat',
+    live: 'https://nimbus-chat.vercel.app/dashboard',
   },
   {
     title: 'Old Goods',
