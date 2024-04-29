@@ -47,15 +47,14 @@ export const experiencesData = [
     title: 'Geeksforgeeks',
     location: 'Problem Setter Intern',
     description:
-      'Created problems based on data structures and algorithms. Tested problems created by other problem setters. Managed content for Geeksforgeeks Practice Portal.',
+      'Evaluated 100+ data structures and algorithm problems, and crafted 120+ comprehensive editorials to provide in-depth solutions. Resolved 350+ user issues promptly, demonstrating strong problem-solving skills. Directed content strategy for GeeksforGeeks Practice Portal, ensuring alignment with platform objectives and enhancing user engagement.',
     icon: React.createElement(CgWorkAlt),
     date: 'July 2022 - March 2023',
   },
   {
     title: 'Cheeg.com',
     location: 'Subject Matter Expert in Computer Science',
-    description:
-      'Worked as a freelance independent contractor for Chegg India Private Limited. Solved students doubts related to Computer Science.',
+    description: `Provided freelance services as an independent contractor for Chegg India Private Limited, addressing 65+ student's doubts in Computer Science. Delivered comprehensive solutions tailored to each student's needs, ensuring clarity and understanding. Demonstrated expertise in resolving complex queries and fostering academic success.`,
     icon: React.createElement(SiFreelancer),
     date: 'October 2021 - July 2022',
   },
