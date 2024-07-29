@@ -2,6 +2,7 @@
 import React from 'react'
 import SectionHeading from './Section-heading'
 import { projectsData } from '@/lib/data'
+import { additionalProjectsData } from '@/lib/data'
 import Project from './Project'
 import { useSectionInView } from '@/lib/hooks'
 
@@ -21,8 +22,14 @@ export default function Projects() {
   return (
     <section ref={ref} id='projects' className=' scroll-mt-28 mb-28'>
       <SectionHeading>My Projects</SectionHeading>
-      <div>
+      <div className='mb-16'>
         {projectsData.map((project, index) => (
+          <Project key={index} {...project} />
+        ))}
+      </div>
+      <SectionHeading>Small Projects or WIP</SectionHeading>
+      <div>
+        {additionalProjectsData.map((project, index) => (
           <Project key={index} {...project} />
         ))}
       </div>

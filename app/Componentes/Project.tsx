@@ -2,11 +2,14 @@
 import Image from 'next/image'
 import { useScroll, motion, useTransform } from 'framer-motion'
 import { projectsData } from '@/lib/data'
+import { additionalProjectsData } from '@/lib/data'
 import { useRef } from 'react'
 import { LuExternalLink } from 'react-icons/lu'
 import { FaCode } from 'react-icons/fa'
 
-type ProjectProps = (typeof projectsData)[number]
+type ProjectProps =
+  | (typeof projectsData)[number]
+  | (typeof additionalProjectsData)[number]
 
 function Project({
   title,
@@ -47,13 +50,13 @@ function Project({
             ))}
           </ul>
           <ul className='w-full flex gap-2 justify-center '>
-            <li className=' bg-black/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
+            <li className=' bg-emerald-900/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
               <a href={code} target='_blank'>
                 Code
               </a>
               <FaCode />
             </li>
-            <li className=' bg-black/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
+            <li className=' bg-emerald-900/[0.7] mt-2 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded  dark:text-white/70 cursor-pointer flex items-center gap-1'>
               <a href={live} target='_blank'>
                 Live
               </a>{' '}

@@ -6,6 +6,10 @@ import oldgoodsImg from '@/public/oldgoods.png'
 import nimbuschat from '@/public/NimbusChat.png'
 import { SiFreelancer } from 'react-icons/si'
 
+import snakeGame from '@/public/snakeGame.png'
+import guessingGame from '@/public/guessingGame.png'
+import mailMomentum from '@/public/mailMomentum.png'
+
 export const links = [
   {
     name: 'Home',
@@ -108,4 +112,33 @@ export const skillsData = [
   'Tailwind',
   'Mongoose',
   'MongoDB',
+] as const
+
+export const additionalProjectsData = [
+  {
+    title: 'Guessing Game',
+    description:
+      'Here I tried to bring back one of our childhood games to your fingertips once again. To know what it does click on live link. And to know how it does, click on code',
+    tags: ['React.js', 'Tailwind CSS'],
+    imageUrl: guessingGame,
+    code: 'https://github.com/sumanmaji4/guessing-game',
+    live: 'https://guessing-game-red.vercel.app/',
+  },
+  {
+    title: 'SnakeGame',
+    description: `This classic Snake game. Mobile-friendly with touch controls and supports keyboard input for PC users. The minimalist design ensures a clean and engaging experience, offering nostalgic fun for players of all ages.`,
+    tags: ['HTML', 'CSS', 'Vanila Javascript'],
+    imageUrl: snakeGame,
+    code: 'https://github.com/sumanmaji4/jsSnakeGame',
+    live: 'https://jssnakegame.onrender.com/',
+  },
+  {
+    title: 'Mail Momentum',
+    description:
+      'Mail Momentum optimizes email marketing campaigns through A/B testing and advanced analytics. Users can create and test multiple email versions, such as different subject lines or sender names, to identify what resonates best with their audience. The platform offers a user-friendly interface for designing email templates and a real-time dashboard that visualizes key metrics like open rates and click-through rates (CTR).',
+    tags: ['Next.js', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Express.js'],
+    imageUrl: mailMomentum,
+    code: 'https://github.com/sumanmaji4/mailMomentumClient',
+    live: 'https://mail-momentum-client.vercel.app/',
+  },
 ] as const

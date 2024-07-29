@@ -56,7 +56,7 @@ function Intro() {
         <a
           className='bg-white p-4 flex items-center gap-2 rounded-full text-2xl borderBlack cursor-pointer focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition dark:bg-white/10 dark:text-white/60'
           target='_blank'
-          href='https://www.linkedin.com/in/suman-maji-9b73b81a3/'
+          href='https://www.linkedin.com/in/sumanmaji4/'
         >
           <BsLinkedin />
         </a>
